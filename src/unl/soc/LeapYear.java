@@ -9,7 +9,7 @@ public class LeapYear {
 	public static void main(String args[]) {
 
 		boolean reportPass = false;
-		if (args.length > 0 && args[0].equals("-reportPass")) {
+		if (args.length > 0 && args[args.length - 1].equals("--passed")) {
 			reportPass = true;
 		}
 
